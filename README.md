@@ -5,6 +5,7 @@ Nội dung:
 2. Tạo Project Baitap01 gồm 01 Activity như sau: Hình và thông tin của từng sinh viên, bo tròn hình các em dùng 
 
 de.hdodenhof.circleimageview.CircleImageView
+
 3. Ẩn thanh tiêu đề của Android
 
 Kết quả 
