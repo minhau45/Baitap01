@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BBDEFB"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imgSinhVien"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:src="@drawable/avatar"
+            app:civ_border_width="3dp"
+            app:civ_border_color="#ECECEC"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/tvName"
+            android:text="Trương Nguyễn Minh Hậu"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#212121"
+            android:layout_marginBottom="6dp"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvMSSV"
+            android:text="MSSV: 23162022"
+            android:textSize="16sp"
+            android:textColor="#666"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvClass"
+            android:text="Sinh viên ngành An toàn thông tin"
+            android:textSize="16sp"
+            android:textColor="#666"
+            android:gravity="center"
+            android:layout_marginBottom="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvFooter"
+            android:text="Trường Đại học Sư Phạm Kỹ Thuật TP.HCM"
+            android:textSize="16sp"
+            android:textColor="#2196F3"
+            android:textStyle="italic"
+            android:layout_marginBottom="24dp"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="Thông tin liên hệ"
+            android:textStyle="bold"
+            android:textColor="#212121"
+            android:textSize="18sp"
+            android:layout_marginBottom="12dp"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvEmail"
+            android:text="Email: 23162022@student.hcmute.edu.vn"
+            android:textSize="16sp"
+            android:textColor="#444"
+            android:layout_marginBottom="6dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tvGithub"
+            android:text="GitHub: github.com/minhau45"
+            android:textSize="16sp"
+            android:textColor="#444"
+            android:layout_marginBottom="6dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tvPhone"
+            android:text="SĐT: 0942581562"
+            android:textSize="16sp"
+            android:textColor="#444"
+            android:layout_marginBottom="6dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="Bài 4: Xử lý mảng số"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/edtArray"
+            android:hint="Nhập chuỗi bất kỳ..."
+            android:padding="12dp"
+            android:backgroundTint="#2196F3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btnArray"
+            android:text="In số chẵn / lẻ ra Logcat"
+            android:backgroundTint="#2196F3"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="Bài 5: Đảo chuỗi nhập vào"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/edtInput"
+            android:hint="Nhập chuỗi bất kỳ..."
+            android:padding="12dp"
+            android:backgroundTint="#2196F3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnXuLy"
+            android:text="Đảo chuỗi và in Toast"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#1976D2"
+            android:textColor="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvKetQua"
+            android:text="Kết quả"
+            android:textSize="16sp"
+            android:textColor="#0D47A1"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>
